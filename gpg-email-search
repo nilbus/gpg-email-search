@@ -10,7 +10,7 @@
 #
 # Example, with email_list.txt containing email addresses, one per line:
 #   gpg-email-search < email_list.txt | tee results.html
-echo '<!DOCTYPE HTML>'
+echo '<!DOCTYPE html>'
 echo '<html><body><pre>'
 while read email; do
   if ! curl -s "http://pgp.mit.edu:11371/pks/lookup?op=index&exact=on&search=$email" | grep '<pre>' -A1 | grep -v '<pre>'; then
