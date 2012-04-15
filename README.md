@@ -1,11 +1,7 @@
 GPG email search utility
 ========================
 
-Command line utility to search for GPG keys on http://pgp.mit.edu.
-
-Despite the name, search keys don't have to be email addresses; you can also search by name and comment.
-
-Uses an exact match search.
+Command line utility to search for GPG keys on http://pgp.mit.edu by email addresses.
 
 Interface
 ---------
