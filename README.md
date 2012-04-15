@@ -14,7 +14,7 @@ Example
 -------
 Example with email_list.txt containing email addresses, one per line:
 
-    gpg-email-search < email_list.txt | tee results.html
+    ./gpg-email-search < email_list.txt | tee results.html
 
 Example input (email_list.txt):
 
